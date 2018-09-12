@@ -1,5 +1,3 @@
-import java.text.DecimalFormat;
-
 public class ExoVariables {
 	
 	public static void main(String[] args) {
@@ -8,8 +6,6 @@ public class ExoVariables {
 		int coef = 3 ; 
 		float resultat = note * coef;
 		System.out.println("Resultat = " + resultat);
-		
-		
 		
 		note = 12.3f;
 		coef = 5; 
@@ -37,6 +33,18 @@ public class ExoVariables {
 					/ (coefJava + coefHtml + coefJavascript + coefCSs);
 		
 		System.out.println("La moyenne : " + moyenne);
+		
+		// déclaration 
+		// [type] [nomDeLaVariable];
+		int quantite;
+		// Affectation
+		// [nomDeLaVariable] = [LaVAleur];
+		quantite = 100 ;
+		
+		// Déclaration + Affectation 
+		// [type] [nomDeLaVariable] = [LaVAleur];
+		int variable = 123;
+		
 		
 	}
 }
