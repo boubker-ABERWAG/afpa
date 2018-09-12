@@ -27,7 +27,6 @@ public class IfElseCondition {
 			System.out.println("Vous avez eu une mauvaise note");
 		}
 		
-		
 		float notes = 15f;
 		int coef = 3 ;
 		float resultat = notes * coef ; 
@@ -38,5 +37,4 @@ public class IfElseCondition {
 			System.out.println("resultat insuffisant");	
 		}	
 	}
-
 }
