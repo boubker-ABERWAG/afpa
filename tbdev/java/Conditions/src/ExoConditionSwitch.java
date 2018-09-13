@@ -3,6 +3,7 @@ public class ExoConditionSwitch {
 
 	public static void main(String[] args) {
 		int mois = 8;
+		
 		switch (mois) {
 		case 1:  
 			System.out.println("Janvier");

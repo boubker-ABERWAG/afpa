@@ -19,6 +19,8 @@ public class ExoConditionIfElseifElse {
 				+ (noteCss * coefCSs)) 
 					/ (coefJava + coefHtml + coefJavascript + coefCSs);
 		
+		
+		
 		System.out.println("La moyenne = " + moyenne);
 		
 		if(moyenne > 18) {
