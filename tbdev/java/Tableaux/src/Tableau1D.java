@@ -33,7 +33,12 @@ public class Tableau1D {
 			System.out.println(entiersPremiers[i]);
 		}
 		
+		
+		
 		String chaines [] = {"Java" , "Html", "CSS", "Javascript", "PHP", "C++","NodeJS"};
+		
+		
+		
 		System.out.println("La première chaine : " + chaines[0]);
 		/*
 		 * Parcourir un tableau et afficher le contenu 
@@ -42,6 +47,8 @@ public class Tableau1D {
 		for (int i = 0; i < chaines.length; i++) {
 			System.out.println("Matière : " + chaines[i]);
 		}
+		
+		
 		System.out.println("FIN");
 		int resultat = 0 ;
 		
