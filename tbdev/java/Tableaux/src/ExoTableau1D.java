@@ -33,9 +33,6 @@ public class ExoTableau1D {
 		}else {
 			System.out.println("Le nombre " + recherche + " n'Existe dans le tableau");
 		}
-		
-		
-		
 
 	}
 
