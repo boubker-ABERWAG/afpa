@@ -60,6 +60,7 @@ public class Main {
 		System.out.println("Lumiere : " + paris.etatLumiere);
 		
 		paris.allumerLesLumieres();
+		
 		System.out.println("Lumiere : " + paris.etatLumiere);
 		
 		
