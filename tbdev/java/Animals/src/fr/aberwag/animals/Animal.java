@@ -23,7 +23,7 @@ public class Animal {
 	
 	
 	public void manger() {
-		System.out.println("Miam, miam, c'est bon" + this.race);
+		System.out.println("Miam, miam, c'est bon");
 	}
 	public void dormir() {
 		System.out.println("zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz");
@@ -71,5 +71,4 @@ public class Animal {
 	public void setRace(String race) {
 		this.race = race;
 	}
-
 }

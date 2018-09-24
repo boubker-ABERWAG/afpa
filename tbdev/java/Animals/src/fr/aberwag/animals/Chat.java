@@ -10,6 +10,10 @@ public class Chat extends Animal{
 		super(nom, taille, poids, couleur, race);
 	}
 	
+	@Override
+	public void manger() {
+		System.out.println("Miam, miam, c'est bon les souris");
+	}
 	
 	public void miauler() {
 		System.out.println("Miaow Miaow Miaow ....");

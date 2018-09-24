@@ -49,6 +49,13 @@ public class Main {
 		chat1.setJeuPref("");
 		System.out.println("Jeu pref: " + chat1.getJeuPref());
 		
+		System.out.println("======================================================");
+		
+		Chat ch = new Chat();
+		ch.manger();
+		
+		Chien c = new Chien();
+		c.manger();
 	}
 
 }
