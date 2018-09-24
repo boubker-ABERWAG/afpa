@@ -1,34 +1,44 @@
-package fr.aberwag.animals;
+package fr.aberwag.oiseau;
 
-public class Animal {
-	
+public class Oiseau {
 	protected String nom;
 	protected int taille;
 	protected int poids;
-	protected String couleur;
 	protected String race;
-	
-	public Animal() {
-		System.out.println("Constructeur de la classe mère!" + this.race);
+	protected boolean plumes;
+
+	public Oiseau() {
+		super();
 	}
 
-	public Animal(String nom, int taille, int poids, String couleur, String race) {
+	public Oiseau(String nom, int taille, int poids, String race, boolean plumes) {
 		super();
 		this.nom = nom;
 		this.taille = taille;
 		this.poids = poids;
-		this.couleur = couleur;
 		this.race = race;
+		this.plumes = plumes;
 	}
-	
+
 	public void manger() {
-		System.out.println("Miam, miam, c'est bon");
+		System.out.println("Miam, miam");
+
 	}
-	public void dormir() {
-		System.out.println("zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz");
+
+	public void boire() {
+		System.out.println("Je bois");
 	}
+
 	public void jouer() {
-		System.out.println("c'est l'heure de jouer youpiii");
+		System.out.println("Je joue");
+	}
+
+	public void courir() {
+		System.out.println("Je cours");
+	}
+
+	public void sauter() {
+		System.out.println("Je saute");
 	}
 
 	public String getNom() {
@@ -55,19 +65,19 @@ public class Animal {
 		this.poids = poids;
 	}
 
-	public String getCouleur() {
-		return couleur;
-	}
-
-	public void setCouleur(String couleur) {
-		this.couleur = couleur;
-	}
-
 	public String getRace() {
 		return race;
 	}
 
 	public void setRace(String race) {
 		this.race = race;
+	}
+
+	public boolean isPlumes() {
+		return plumes;
+	}
+
+	public void setPlumes(boolean plumes) {
+		this.plumes = plumes;
 	}
 }
