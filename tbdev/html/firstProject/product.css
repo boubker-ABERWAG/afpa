@@ -1,0 +1,34 @@
+.image-produit {
+    margin: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 250px;
+}
+
+.image-produit:hover {
+    border: 1px solid #777;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.description {
+    padding: 15px;
+    text-align: center;
+    background: #777777;
+}
+
+label{
+    float: right;
+    font-size: xx-large;
+}
+h1{
+    margin: auto;
+    width: 30%;
+    font-size: 50px;
+    color: brown;
+    border: solid 5px burlywood;
+    text-align: center;
+}
